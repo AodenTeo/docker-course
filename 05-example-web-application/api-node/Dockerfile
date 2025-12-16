@@ -1,6 +1,4 @@
 FROM ubuntu
 
-RUN apt update
-
-RUN apt install nodejs -y
+RUN apt update &&apt install nodejs -y
 
